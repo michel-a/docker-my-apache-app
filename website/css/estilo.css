@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    margin: 10px;
+    width: 400px;
+}
+
+section > form {
+    border: 1px solid #000;
+    padding: 4px;
+    background-color: rgb(237, 237, 237);
+}
+
+fieldset {
+    padding: 3px;
+}
+
+#dados_pessoais, #endereco {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+input, select {
+    height: 25px;
+}
+
+#sexo {
+    height: 28px;
+    background-color: white;
+}
+
+#botoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+#salvar, #limpar {
+    margin-top: 4px;
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+#informacoes_cadastro {
+    font-size: 10pt;
+}
